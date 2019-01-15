@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
   color: #58402c;
 }
 
@@ -26,6 +27,7 @@ header {
 header #wrapMenu {
   display: flex;
   height: 100%;
+  border-bottom: 1px solid grey;
 }
 
 header #wrapMenu #wrapLogo {
@@ -33,16 +35,14 @@ header #wrapMenu #wrapLogo {
   align-items: center;
   width: 50%;
   height: 100%;
-  background-color: red;
 }
 
 header #wrapMenu #wrapNav {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   width: 50%;
   height: 100%;
-  background-color: green;
 }
 
 header #wrapMenu #wrapNav ul {
@@ -51,5 +51,8 @@ header #wrapMenu #wrapNav ul {
 
 header #wrapMenu #wrapNav ul li {
   display: inline-block;
+  margin-right: 30px;
+  font-size: 13px;
+  font-weight: bold;
 }
 
