@@ -10,7 +10,7 @@ header {
       & #wrapLogo {
         display: flex;
         align-items: center;
-        width: 50%;
+        width: 60%;
         height: 100%;
       }
 
@@ -18,17 +18,33 @@ header {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        width: 50%;
+        width: 40%;
         height: 100%;
 
         ul {
           list-style-type: none;
           li {
             display: inline-block;
-            margin-right: 30px;
-            font-size: 13px;
+            margin-right: 20px;
+            font-size: 10px;
             font-weight: bold;
           }
+        }
+        button {
+          padding-top: 5px;
+          padding-bottom: 5px;
+          padding-left: 15px;
+          padding-right: 15px;
+          font-size: 10px;
+          background-color: $bianco;
+          color: $bluTesto;
+          border-radius: 5px;
+          border: 1px solid $bluTesto;
+          font-weight: bold;
+          i{
+            margin-right: 10px;
+          }
+
         }
       }
 
