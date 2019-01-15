@@ -13,6 +13,10 @@
   margin: 0 auto;
 }
 
+a {
+  text-decoration: none;
+}
+
 header {
   width: 100%;
   height: 75px;
@@ -25,14 +29,27 @@ header #wrapMenu {
 }
 
 header #wrapMenu #wrapLogo {
+  display: flex;
+  align-items: center;
   width: 50%;
   height: 100%;
   background-color: red;
 }
 
 header #wrapMenu #wrapNav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
   width: 50%;
   height: 100%;
   background-color: green;
+}
+
+header #wrapMenu #wrapNav ul {
+  list-style-type: none;
+}
+
+header #wrapMenu #wrapNav ul li {
+  display: inline-block;
 }
 

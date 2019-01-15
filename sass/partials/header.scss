@@ -7,15 +7,27 @@ header {
     height: 100%;
 
       & #wrapLogo {
+        display: flex;
+        align-items: center;
         width: 50%;
         height: 100%;
         background-color: red;
       }
 
       & #wrapNav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
         width: 50%;
         height: 100%;
         background-color: green;
+
+        ul {
+          list-style-type: none;
+          li {
+            display: inline-block;
+          }
+        }
       }
 
   }
