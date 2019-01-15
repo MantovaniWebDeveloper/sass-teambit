@@ -56,6 +56,10 @@ header #wrapMenu #wrapNav ul li {
   font-weight: bold;
 }
 
+header #wrapMenu #wrapNav ul li a:hover {
+  color: #30488f;
+}
+
 header #wrapMenu #wrapNav button {
   padding-top: 5px;
   padding-bottom: 5px;
@@ -71,5 +75,14 @@ header #wrapMenu #wrapNav button {
 
 header #wrapMenu #wrapNav button i {
   margin-right: 10px;
+}
+
+header #wrapMenu #wrapNav button:hover {
+  background-color: #30488f;
+  color: #fff;
+}
+
+header #wrapMenu #wrapNav button:hover i {
+  color: #fff;
 }
 

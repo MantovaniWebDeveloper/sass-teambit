@@ -28,6 +28,12 @@ header {
             margin-right: 20px;
             font-size: 10px;
             font-weight: bold;
+            a{
+              &:hover {
+                color: $bluTesto;
+              }
+            }
+
           }
         }
         button {
@@ -43,6 +49,13 @@ header {
           font-weight: bold;
           i{
             margin-right: 10px;
+          }
+          &:hover{
+            background-color: $bluTesto;
+            color: $bianco;
+            i{
+              color: $bianco;
+            }
           }
 
         }
