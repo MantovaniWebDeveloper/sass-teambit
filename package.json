@@ -1,0 +1,22 @@
+{
+  "name": "sass-teambit-project",
+  "version": "1.0.0",
+  "description": "Clonazione landin page teambit",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MantovaniWebDeveloper/sass-teambit.git"
+  },
+  "author": "Dario Mantovani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MantovaniWebDeveloper/sass-teambit/issues"
+  },
+  "homepage": "https://github.com/MantovaniWebDeveloper/sass-teambit#readme",
+  "devDependencies": {
+    "laravel-mix": "^4.0.14"
+  }
+}
