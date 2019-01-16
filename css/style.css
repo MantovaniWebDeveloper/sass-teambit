@@ -161,42 +161,62 @@ header #wrapMenu #wrapNav button:hover i {
 
 #sectionDue {
   background-color: #ffe7d2;
-  height: 800px;
+  height: 100%;
   width: 100%;
 }
 
-#sectionDue #wrapTraditional {
-  height: 100%;
+#sectionDue .wrapTraditionalCard {
+  height: 450px;
 }
 
-#sectionDue #wrapTraditional h2 {
+#sectionDue .wrapTraditionalCard h2 {
   font-size: 27px;
   text-align: center;
-  padding-top: 100px;
-  padding-bottom: 80px;
-  padding-left: 100px;
-  padding-right: 100px;
+  padding: 100px 100px 80px;
 }
 
-#sectionDue #wrapTraditional .wrapCard > div {
+#sectionDue .wrapTraditionalCard .wrapCard > div {
   float: left;
   width: calc(100% / 3);
   height: 200px;
 }
 
-#sectionDue #wrapTraditional .wrapCard > div .cardImg {
+#sectionDue .wrapTraditionalCard .wrapCard > div .cardImg {
   display: flex;
   align-items: center;
   justify-content: center;
   height: 150px;
 }
 
-#sectionDue #wrapTraditional .wrapCard > div .cardImg img {
+#sectionDue .wrapTraditionalCard .wrapCard > div .cardImg img {
   max-width: 140px;
 }
 
-#sectionDue #wrapTraditional .wrapCard > div .cardTitle {
+#sectionDue .wrapTraditionalCard .wrapCard > div .cardTitle {
   text-align: center;
   font-size: 14px;
+}
+
+#sectionDue .rabbitImgcontainer {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  height: 100%;
+  text-align: center;
+}
+
+#sectionDue .rabbitImgcontainer img {
+  max-width: 250px;
+}
+
+#sectionDue .rabbitImgcontainer h4 {
+  text-align: center;
+  font-size: 25px;
+  padding-top: 100px;
+}
+
+#sectionDue .riga {
+  height: 50px;
+  width: 100%;
+  border-bottom: 1px solid grey;
 }
 
