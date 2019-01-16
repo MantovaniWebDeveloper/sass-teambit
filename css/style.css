@@ -220,3 +220,48 @@ header #wrapMenu #wrapNav button:hover i {
   border-bottom: 1px solid grey;
 }
 
+#sectionTre {
+  width: 100%;
+  height: 100%;
+}
+
+#sectionTre .wrapContentGenerale {
+  display: flex;
+  padding-top: 80px;
+}
+
+#sectionTre .wrapContentGenerale > div {
+  height: 500px;
+}
+
+#sectionTre .wrapContentGenerale .contentLeft {
+  width: 60%;
+}
+
+#sectionTre .wrapContentGenerale .contentLeft img {
+  max-width: 800px;
+}
+
+#sectionTre .wrapContentGenerale .contentRight {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 40%;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+#sectionTre .wrapContentGenerale .contentRight h2 {
+  font-size: 30px;
+  text-align: left;
+}
+
+#sectionTre .wrapContentGenerale .contentRight p {
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+#sectionTre .wrapContentGenerale .contentRight img {
+  max-width: 240px;
+}
+
