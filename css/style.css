@@ -228,6 +228,7 @@ header #wrapMenu #wrapNav button:hover i {
 #sectionTre .wrapContentGenerale {
   display: flex;
   padding-top: 80px;
+  padding-bottom: 120px;
 }
 
 #sectionTre .wrapContentGenerale > div {
@@ -276,5 +277,56 @@ header #wrapMenu #wrapNav button:hover i {
 
 #sectionTre .wrapContentGenerale .contentRight img {
   max-width: 240px;
+}
+
+#sectionTre .wrapContentGeneraleSx {
+  display: flex;
+  display: flex;
+}
+
+#sectionTre .wrapContentGeneraleSx > div {
+  height: 500px;
+}
+
+#sectionTre .wrapContentGeneraleSx .contentLeftSx {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 60%;
+  padding-left: 300px;
+}
+
+#sectionTre .wrapContentGeneraleSx .contentLeftSx h2 {
+  font-size: 25px;
+}
+
+#sectionTre .wrapContentGeneraleSx .contentLeftSx p {
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+#sectionTre .wrapContentGeneraleSx .contentLeftSx a {
+  font-size: 20px;
+  color: #30488f;
+}
+
+#sectionTre .wrapContentGeneraleSx .contentLeftSx a:hover {
+  color: #233569;
+}
+
+#sectionTre .wrapContentGeneraleSx .contentLeftSx a i {
+  color: #30488f;
+}
+
+#sectionTre .wrapContentGeneraleSx .contentLeftSx img {
+  max-width: 240px;
+}
+
+#sectionTre .wrapContentGeneraleSx .contentRightDx {
+  width: 40%;
+}
+
+#sectionTre .wrapContentGeneraleSx .contentRightDx img {
+  max-width: 700px;
 }
 
