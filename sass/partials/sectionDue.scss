@@ -5,16 +5,22 @@
   #wrapTraditional {
     height: 100%;
     h2 {
-      font-size: 30px;
+      font-size: 27px;
       text-align: center;
-      padding-top: 10px;
+      padding-top: 100px;
+      padding-bottom: 80px;
+      padding-left: 100px;
+      padding-right: 100px;
     }
      .wrapCard > div {
       float: left;
       width: calc(100% / 3);
-      height: 100%;
+      height: 200px;
         .cardImg {
-          text-align: center;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          height: 150px;
           img {
             max-width: 140px;
           }
