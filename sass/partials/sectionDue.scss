@@ -2,4 +2,27 @@
   background-color: $rosa;
   height: 800px;
   width: 100%;
+  #wrapTraditional {
+    height: 100%;
+    h2 {
+      font-size: 30px;
+      text-align: center;
+      padding-top: 10px;
+    }
+     .wrapCard > div {
+      float: left;
+      width: calc(100% / 3);
+      height: 100%;
+        .cardImg {
+          text-align: center;
+          img {
+            max-width: 140px;
+          }
+        }
+        .cardTitle {
+          text-align: center;
+          font-size: 14px;
+        }
+    }
+  }
 }

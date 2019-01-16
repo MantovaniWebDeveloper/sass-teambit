@@ -18,7 +18,6 @@
   width: 50%;
   height: 100%;
   margin: 0 auto;
-  background-color: green;
 }
 
 a {
@@ -164,5 +163,34 @@ header #wrapMenu #wrapNav button:hover i {
   background-color: #ffe7d2;
   height: 800px;
   width: 100%;
+}
+
+#sectionDue #wrapTraditional {
+  height: 100%;
+}
+
+#sectionDue #wrapTraditional h2 {
+  font-size: 30px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+#sectionDue #wrapTraditional .wrapCard > div {
+  float: left;
+  width: calc(100% / 3);
+  height: 100%;
+}
+
+#sectionDue #wrapTraditional .wrapCard > div .cardImg {
+  text-align: center;
+}
+
+#sectionDue #wrapTraditional .wrapCard > div .cardImg img {
+  max-width: 140px;
+}
+
+#sectionDue #wrapTraditional .wrapCard > div .cardTitle {
+  text-align: center;
+  font-size: 14px;
 }
 
