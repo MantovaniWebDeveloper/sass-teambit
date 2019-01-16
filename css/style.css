@@ -86,3 +86,18 @@ header #wrapMenu #wrapNav button:hover i {
   color: #fff;
 }
 
+#sectionUno {
+  height: 700px;
+  width: 100%;
+  background-color: red;
+}
+
+#sectionUno #wrapSectionUnoContent {
+  display: flex;
+}
+
+#sectionUno #wrapSectionUnoContent > div {
+  width: 50%;
+  height: 100%;
+}
+

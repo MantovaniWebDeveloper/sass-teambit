@@ -1,0 +1,13 @@
+#sectionUno {
+  height: 700px;
+  width: 100%;
+  background-color: red;
+
+  #wrapSectionUnoContent {
+    display: flex;
+    &>div {
+      width: 50%;
+      height: 100%;
+    }
+  }
+}
