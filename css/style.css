@@ -18,6 +18,10 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  color: #30488f;
+}
+
 header {
   width: 100%;
   height: 75px;
@@ -98,6 +102,46 @@ header #wrapMenu #wrapNav button:hover i {
 #sectionUno #wrapSectionUnoContent > div {
   width: 50%;
   height: 100%;
+}
+
+#sectionUno #wrapSectionUnoContent #wrapleftContent {
+  margin-top: 70px;
+}
+
+#sectionUno #wrapSectionUnoContent #wrapleftContent #wrapleftContentText h2 {
+  font-size: 55px;
+}
+
+#sectionUno #wrapSectionUnoContent #wrapleftContent #wrapleftContentText h4 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 27px;
+  font-weight: lighter;
+}
+
+#sectionUno #wrapSectionUnoContent #wrapleftContent #wrapleftContentText button {
+  background-color: #30488f;
+  color: #fff;
+  font-size: 13px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 15px;
+  padding-left: 15px;
+  border-radius: 5px;
+  border: 1px solid #30488f;
+}
+
+#sectionUno #wrapSectionUnoContent #wrapleftContent #wrapleftContentText button i {
+  color: #fff;
+  margin-right: 15px;
+}
+
+#sectionUno #wrapSectionUnoContent #wrapleftContent #wrapleftContentText button:hover {
+  background-color: #233569;
+}
+
+#sectionUno #wrapSectionUnoContent #wrapleftContent #wrapleftContentText .wrapButton {
+  margin-top: 20px;
 }
 
 #sectionUno #wrapSectionUnoContent #rightContent {
