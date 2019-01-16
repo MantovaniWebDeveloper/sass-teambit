@@ -14,6 +14,13 @@
   margin: 0 auto;
 }
 
+.containerMini {
+  width: 50%;
+  height: 100%;
+  margin: 0 auto;
+  background-color: green;
+}
+
 a {
   text-decoration: none;
 }
@@ -151,5 +158,11 @@ header #wrapMenu #wrapNav button:hover i {
 #sectionUno #wrapSectionUnoContent #rightContent img {
   max-width: 675px;
   height: auto;
+}
+
+#sectionDue {
+  background-color: #ffe7d2;
+  height: 800px;
+  width: 100%;
 }
 
