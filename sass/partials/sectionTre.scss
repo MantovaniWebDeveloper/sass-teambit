@@ -28,6 +28,16 @@
          font-size: 20px;
          font-weight: lighter;
        }
+       a {
+         font-size: 20px;
+         color: $bluTesto;
+         &:hover {
+           color: $bluScuroHover;
+         }
+          i {
+            color: $bluTesto;
+          }
+       }
        img {
          max-width: 240px;
        }

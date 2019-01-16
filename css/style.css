@@ -261,6 +261,19 @@ header #wrapMenu #wrapNav button:hover i {
   font-weight: lighter;
 }
 
+#sectionTre .wrapContentGenerale .contentRight a {
+  font-size: 20px;
+  color: #30488f;
+}
+
+#sectionTre .wrapContentGenerale .contentRight a:hover {
+  color: #233569;
+}
+
+#sectionTre .wrapContentGenerale .contentRight a i {
+  color: #30488f;
+}
+
 #sectionTre .wrapContentGenerale .contentRight img {
   max-width: 240px;
 }
