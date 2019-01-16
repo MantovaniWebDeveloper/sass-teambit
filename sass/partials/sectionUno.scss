@@ -1,13 +1,19 @@
 #sectionUno {
   height: 700px;
   width: 100%;
-  background-color: red;
 
   #wrapSectionUnoContent {
     display: flex;
     &>div {
       width: 50%;
       height: 100%;
+    }
+    & #rightContent {
+      margin-top: 70px;
+      img {
+        max-width: 675px;
+        height: auto;
+      }
     }
   }
 }

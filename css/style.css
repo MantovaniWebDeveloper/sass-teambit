@@ -89,7 +89,6 @@ header #wrapMenu #wrapNav button:hover i {
 #sectionUno {
   height: 700px;
   width: 100%;
-  background-color: red;
 }
 
 #sectionUno #wrapSectionUnoContent {
@@ -99,5 +98,14 @@ header #wrapMenu #wrapNav button:hover i {
 #sectionUno #wrapSectionUnoContent > div {
   width: 50%;
   height: 100%;
+}
+
+#sectionUno #wrapSectionUnoContent #rightContent {
+  margin-top: 70px;
+}
+
+#sectionUno #wrapSectionUnoContent #rightContent img {
+  max-width: 675px;
+  height: auto;
 }
 
