@@ -20,6 +20,7 @@
     border-radius: 5px;
     border: 1px solid grey;
     padding: 30px;
+    padding-bottom: 80PX;
 
     .testoBox {
       padding-bottom: 10px;
@@ -47,5 +48,21 @@
         }
       }
 
+  }
+  .wrapButton {
+    text-align: center;
+    padding-top: 50px;
+      & button{
+        @include btnBaseBlu;
+        i {
+          color: $bianco;
+          margin-right: 10px;
+        }
+      }
+  }
+  a {
+    padding-top: 20px;
+    display: block;
+    text-align: center;
   }
 }

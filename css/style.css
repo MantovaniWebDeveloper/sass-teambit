@@ -355,6 +355,7 @@ header #wrapMenu #wrapNav button:hover i {
   border-radius: 5px;
   border: 1px solid grey;
   padding: 30px;
+  padding-bottom: 80PX;
 }
 
 #sectionQuattro .box .testoBox {
@@ -385,5 +386,33 @@ header #wrapMenu #wrapNav button:hover i {
 
 #sectionQuattro .box .wrapPhotoText .wrapText #ruolo {
   font-size: 11px;
+}
+
+#sectionQuattro .wrapButton {
+  text-align: center;
+  padding-top: 50px;
+}
+
+#sectionQuattro .wrapButton button {
+  background-color: #30488f;
+  color: #fff;
+  font-size: 13px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 15px;
+  padding-left: 15px;
+  border-radius: 5px;
+  border: 1px solid #30488f;
+}
+
+#sectionQuattro .wrapButton button i {
+  color: #fff;
+  margin-right: 10px;
+}
+
+#sectionQuattro a {
+  padding-top: 20px;
+  display: block;
+  text-align: center;
 }
 
