@@ -23,5 +23,16 @@
       p {
         padding: 30px;
       }
+      & .wrapPhotoText {
+        padding-left: 30px;
+        padding-right: 30px;
+        display: flex;
+        .foto {
+          margin-right: 10px;
+          img {
+            height: 38px;
+          }
+        }
+      }
   }
 }

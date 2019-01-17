@@ -360,3 +360,17 @@ header #wrapMenu #wrapNav button:hover i {
   padding: 30px;
 }
 
+#sectionQuattro .box .wrapPhotoText {
+  padding-left: 30px;
+  padding-right: 30px;
+  display: flex;
+}
+
+#sectionQuattro .box .wrapPhotoText .foto {
+  margin-right: 10px;
+}
+
+#sectionQuattro .box .wrapPhotoText .foto img {
+  height: 38px;
+}
+
