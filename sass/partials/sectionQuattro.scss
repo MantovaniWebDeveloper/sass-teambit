@@ -21,11 +21,11 @@
     border: 1px solid grey;
     padding: 30px;
 
-
-      p {
-      }
+    .testoBox {
+      padding-bottom: 10px;
+    }
       .wrapPhotoText {
-        padding-top: 50px;
+        padding-top: 20px;
         display: flex;
         & .wrapPhoto {
           display: flex;

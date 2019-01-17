@@ -357,8 +357,12 @@ header #wrapMenu #wrapNav button:hover i {
   padding: 30px;
 }
 
+#sectionQuattro .box .testoBox {
+  padding-bottom: 10px;
+}
+
 #sectionQuattro .box .wrapPhotoText {
-  padding-top: 50px;
+  padding-top: 20px;
   display: flex;
 }
 
