@@ -19,20 +19,33 @@
     width: 100%;
     border-radius: 5px;
     border: 1px solid grey;
+    padding: 30px;
+
 
       p {
-        padding: 30px;
       }
-      & .wrapPhotoText {
-        padding-left: 30px;
-        padding-right: 30px;
+      .wrapPhotoText {
+        padding-top: 50px;
         display: flex;
-        .foto {
-          margin-right: 10px;
-          img {
-            height: 38px;
+        & .wrapPhoto {
+          display: flex;
+          .foto {
+            margin-right: 10px;
+            img {
+              height: 38px;
+            }
+          }
+        }
+        & .wrapText {
+          #nomi {
+            color: $bluTesto;
+            font-size: 13px;
+          }
+          #ruolo {
+            font-size: 11px;
           }
         }
       }
+
   }
 }

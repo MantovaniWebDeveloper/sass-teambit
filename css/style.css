@@ -354,23 +354,32 @@ header #wrapMenu #wrapNav button:hover i {
   width: 100%;
   border-radius: 5px;
   border: 1px solid grey;
-}
-
-#sectionQuattro .box p {
   padding: 30px;
 }
 
 #sectionQuattro .box .wrapPhotoText {
-  padding-left: 30px;
-  padding-right: 30px;
+  padding-top: 50px;
   display: flex;
 }
 
-#sectionQuattro .box .wrapPhotoText .foto {
+#sectionQuattro .box .wrapPhotoText .wrapPhoto {
+  display: flex;
+}
+
+#sectionQuattro .box .wrapPhotoText .wrapPhoto .foto {
   margin-right: 10px;
 }
 
-#sectionQuattro .box .wrapPhotoText .foto img {
+#sectionQuattro .box .wrapPhotoText .wrapPhoto .foto img {
   height: 38px;
+}
+
+#sectionQuattro .box .wrapPhotoText .wrapText #nomi {
+  color: #30488f;
+  font-size: 13px;
+}
+
+#sectionQuattro .box .wrapPhotoText .wrapText #ruolo {
+  font-size: 11px;
 }
 
